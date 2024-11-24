@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="H:/JAVA Workspace/jars/selenium-api-4.13.0.jar"/>
+	<classpathentry kind="lib" path="H:/JAVA Workspace/jars/selenium-api-4.13.0-sources.jar"/>
+	<classpathentry kind="lib" path="H:/JAVA Workspace/jars/selenium-chrome-driver-4.13.0.jar"/>
+	<classpathentry kind="lib" path="H:/JAVA Workspace/jars/selenium-chrome-driver-4.13.0-sources.jar"/>
+	<classpathentry kind="lib" path="H:/JAVA Workspace/jars/selenium-chromium-driver-4.13.0.jar"/>
+	<classpathentry kind="lib" path="H:/JAVA Workspace/jars/selenium-chromium-driver-4.13.0-sources.jar"/>
+	<classpathentry kind="lib" path="H:/JAVA Workspace/jars/selenium-devtools-v85-4.13.0.jar"/>
+	<classpathentry kind="lib" path="H:/JAVA Workspace/jars/selenium-devtools-v85-4.13.0-sources.jar"/>
+	<classpathentry kind="lib" path="H:/JAVA Workspace/jars/selenium-devtools-v115-4.13.0.jar"/>
+	<classpathentry kind="lib" path="H:/JAVA Workspace/jars/selenium-devtools-v115-4.13.0-sources.jar"/>
+	<classpathentry kind="lib" path="H:/JAVA Workspace/jars/selenium-devtools-v116-4.13.0.jar"/>
+	<classpathentry kind="lib" path="H:/JAVA Workspace/jars/selenium-devtools-v116-4.13.0-sources.jar"/>
+	<classpathentry kind="lib" path="H:/JAVA Workspace/jars/selenium-devtools-v117-4.13.0.jar"/>
+	<classpathentry kind="lib" path="H:/JAVA Workspace/jars/selenium-devtools-v117-4.13.0-sources.jar"/>
+	<classpathentry kind="lib" path="H:/JAVA Workspace/jars/selenium-edge-driver-4.13.0.jar"/>
+	<classpathentry kind="lib" path="H:/JAVA Workspace/jars/selenium-edge-driver-4.13.0-sources.jar"/>
+	<classpathentry kind="lib" path="H:/JAVA Workspace/jars/selenium-firefox-driver-4.13.0.jar"/>
+	<classpathentry kind="lib" path="H:/JAVA Workspace/jars/selenium-firefox-driver-4.13.0-sources.jar"/>
+	<classpathentry kind="lib" path="H:/JAVA Workspace/jars/selenium-grid-4.13.0.jar"/>
+	<classpathentry kind="lib" path="H:/JAVA Workspace/jars/selenium-grid-4.13.0-sources.jar"/>
+	<classpathentry kind="lib" path="H:/JAVA Workspace/jars/selenium-http-4.13.0.jar"/>
+	<classpathentry kind="lib" path="H:/JAVA Workspace/jars/selenium-http-4.13.0-sources.jar"/>
+	<classpathentry kind="lib" path="H:/JAVA Workspace/jars/selenium-ie-driver-4.13.0.jar"/>
+	<classpathentry kind="lib" path="H:/JAVA Workspace/jars/selenium-ie-driver-4.13.0-sources.jar"/>
+	<classpathentry kind="lib" path="H:/JAVA Workspace/jars/selenium-json-4.13.0.jar"/>
+	<classpathentry kind="lib" path="H:/JAVA Workspace/jars/selenium-json-4.13.0-sources.jar"/>
+	<classpathentry kind="lib" path="H:/JAVA Workspace/jars/selenium-manager-4.13.0.jar"/>
+	<classpathentry kind="lib" path="H:/JAVA Workspace/jars/selenium-manager-4.13.0-sources.jar"/>
+	<classpathentry kind="lib" path="H:/JAVA Workspace/jars/selenium-os-4.13.0.jar"/>
+	<classpathentry kind="lib" path="H:/JAVA Workspace/jars/selenium-os-4.13.0-sources.jar"/>
+	<classpathentry kind="lib" path="H:/JAVA Workspace/jars/selenium-remote-driver-4.13.0.jar"/>
+	<classpathentry kind="lib" path="H:/JAVA Workspace/jars/selenium-remote-driver-4.13.0-sources.jar"/>
+	<classpathentry kind="lib" path="H:/JAVA Workspace/jars/selenium-safari-driver-4.13.0.jar"/>
+	<classpathentry kind="lib" path="H:/JAVA Workspace/jars/selenium-safari-driver-4.13.0-sources.jar"/>
+	<classpathentry kind="lib" path="H:/JAVA Workspace/jars/selenium-server-4.13.0.jar"/>
+	<classpathentry kind="lib" path="H:/JAVA Workspace/jars/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="H:/JAVA Workspace/jars/selenium-support-4.13.0.jar"/>
+	<classpathentry kind="lib" path="H:/JAVA Workspace/jars/selenium-support-4.13.0-sources.jar"/>
+	<classpathentry kind="lib" path="H:/JAVA Workspace/jars/webdrivermanager-5.9.2-fat.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="H:/JAVA Workspace/jars/commons-io-2.17.0/commons-io-2.17.0.jar"/>
+	<classpathentry kind="lib" path="H:/JAVA Workspace/jars/commons-io-2.17.0/commons-io-2.17.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="H:/JAVA Workspace/jars/commons-io-2.17.0/commons-io-2.17.0-sources.jar"/>
+	<classpathentry kind="lib" path="H:/JAVA Workspace/jars/commons-io-2.17.0/commons-io-2.17.0-tests.jar"/>
+	<classpathentry kind="lib" path="H:/JAVA Workspace/jars/commons-io-2.17.0/commons-io-2.17.0-test-sources.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

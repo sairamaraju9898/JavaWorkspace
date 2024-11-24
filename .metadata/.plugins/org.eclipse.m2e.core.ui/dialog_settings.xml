@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="H:\JAVA Workspace\Abc"/>
+			<item value="C:\Users\Lenovo\Desktop\maven4"/>
+			<item value="C:\Users\Lenovo\Desktop\Maven3"/>
+			<item value="C:\Users\Lenovo\Desktop\maven2"/>
+			<item value="C:\Users\Lenovo\Desktop\maven"/>
+			<item value="D:\sai"/>
+			<item value="C:\Users\Lenovo\Desktop\DEMO"/>
+			<item value="C:\Users\Lenovo\Desktop"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="adactinhotelapp"/>
+			<item value="appiumtesta"/>
+			<item value="SBAFS"/>
+			<item value="Containerstore"/>
+			<item value="POM"/>
+			<item value="MAVEN"/>
+			<item value="Maven"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="AdactinHybridFramework"/>
+			<item value="JavaSeasons3"/>
+			<item value="appiumtests"/>
+			<item value="SB"/>
+			<item value="Containerstore"/>
+			<item value="POM"/>
+			<item value="POM_MAVEN"/>
+			<item value="Pom"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="screenshots"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="screenshots"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\Lenovo\Desktop\maven"/>
+			<item value="H:\JAVA Workspace\maven2"/>
+			<item value="H:\JAVA Workspace\maven4"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

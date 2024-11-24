@@ -1,0 +1,39 @@
+package pages;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
+
+import base.BaseTest;
+
+public class BasePage extends BaseTest{
+
+	
+	public BasePage() {
+		PageFactory.initElements(driver, this);
+	}
+	
+	//this is like actions class
+	
+	public void type(WebElement element, String text) {
+		element.sendKeys(text);
+	}
+	
+	public void click(WebElement element) {
+		element.click();
+	}
+	
+	public String getTitle() {
+		
+		return driver.getTitle();
+		}
+	
+	
+	public void verifyTitle(String expTitle) {
+		Assert.assertEquals(getTitle(),expTitle);
+	}
+	
+	public void verifyTextPresentAsValue(WebElement element,String expTitle) {
+		Assert.assertEquals(element.getAttribute("value"), expTitle);
+	}
+	}

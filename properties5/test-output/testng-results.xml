@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="61927" started-at="2022-02-28T10:12:13 IST" finished-at="2022-02-28T10:13:15 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="61927" started-at="2022-02-28T10:12:13 IST" finished-at="2022-02-28T10:13:15 IST">
+      <class name="com.rameshsoft.automation.appln.bussinessscripts.gmailtest">
+        <test-method status="PASS" signature="openbrowser(java.lang.String)[pri:0, instance:com.rameshsoft.automation.appln.bussinessscripts.gmailtest@78047b92]" name="openbrowser" is-config="true" duration-ms="7321" started-at="2022-02-28T10:12:06 IST" finished-at="2022-02-28T10:12:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="initTeports()[pri:0, instance:com.rameshsoft.automation.appln.bussinessscripts.gmailtest@78047b92]" name="initTeports" is-config="true" duration-ms="779" started-at="2022-02-28T10:12:13 IST" finished-at="2022-02-28T10:12:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTeports -->
+        <test-method status="PASS" signature="beforetcexecution(java.lang.reflect.Method)[pri:0, instance:com.rameshsoft.automation.appln.bussinessscripts.gmailtest@78047b92]" name="beforetcexecution" is-config="true" duration-ms="15" started-at="2022-02-28T10:12:14 IST" finished-at="2022-02-28T10:12:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.rameshsoft.automation.appln.bussinessscripts.gmailtest.gmaillogintest() throws java.io.IOException,org.apache.poi.EncryptedDocumentException,org.apache.poi.openxml4j.exceptions.InvalidFormatException,com.rameshsoft.automation.customisedexceptions.FrameworksException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetcexecution -->
+        <test-method status="FAIL" signature="gmaillogintest()[pri:0, instance:com.rameshsoft.automation.appln.bussinessscripts.gmailtest@78047b92]" name="gmaillogintest" duration-ms="58777" started-at="2022-02-28T10:12:14 IST" finished-at="2022-02-28T10:13:13 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"id","selector":"identifierId"}
+  (Session info: chrome=98.0.4758.102)
+  (Driver info: chromedriver=98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972}),platform=Windows NT 10.0.19044 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 49.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'LAPTOP-9KUC2J4U', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:63355}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972}), userDataDir=C:\Users\Lenovo\AppData\Local\Temp\scoped_dir7396_1730008935}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=98.0.4758.102, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 7828fcbdb8acceaebb1b7083bd86e6d1
+*** Element info: {Using=id, value=identifierId}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"identifierId"}
+  (Session info: chrome=98.0.4758.102)
+  (Driver info: chromedriver=98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972}),platform=Windows NT 10.0.19044 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 49.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'LAPTOP-9KUC2J4U', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:63355}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972}), userDataDir=C:\Users\Lenovo\AppData\Local\Temp\scoped_dir7396_1730008935}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=98.0.4758.102, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 7828fcbdb8acceaebb1b7083bd86e6d1
+*** Element info: {Using=id, value=identifierId}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+at org.openqa.selenium.By$ById.findElement(By.java:214)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at com.rameshsoft.automation.appln.bussinessscripts.gmailtest.gmaillogintest(gmailtest.java:63)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gmaillogintest -->
+        <test-method status="PASS" signature="aftertcexecution(org.testng.ITestResult)[pri:0, instance:com.rameshsoft.automation.appln.bussinessscripts.gmailtest@78047b92]" name="aftertcexecution" is-config="true" duration-ms="1971" started-at="2022-02-28T10:13:13 IST" finished-at="2022-02-28T10:13:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=gmaillogintest status=FAILURE method=gmailtest.gmaillogintest()[pri:0, instance:com.rameshsoft.automation.appln.bussinessscripts.gmailtest@78047b92] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertcexecution -->
+        <test-method status="PASS" signature="generateReports()[pri:0, instance:com.rameshsoft.automation.appln.bussinessscripts.gmailtest@78047b92]" name="generateReports" is-config="true" duration-ms="227" started-at="2022-02-28T10:13:15 IST" finished-at="2022-02-28T10:13:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReports -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.rameshsoft.automation.appln.bussinessscripts.gmailtest@78047b92]" name="closebrowser" is-config="true" duration-ms="1681" started-at="2022-02-28T10:13:15 IST" finished-at="2022-02-28T10:13:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.rameshsoft.automation.appln.bussinessscripts.gmailtest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="12" total="16" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="32158" started-at="2022-03-04T14:32:31 IST" finished-at="2022-03-04T14:33:03 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="32158" started-at="2022-03-04T14:32:31 IST" finished-at="2022-03-04T14:33:03 IST">
+      <class name="com.rameshsoft.automation.appln.bussinessscripts.fbtest">
+        <test-method status="PASS" signature="beforetcexecution(java.lang.reflect.Method)[pri:0, instance:com.rameshsoft.automation.appln.bussinessscripts.fbtest@18a70f16]" name="beforetcexecution" is-config="true" duration-ms="1" started-at="2022-03-04T14:32:44 IST" finished-at="2022-03-04T14:32:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.rameshsoft.automation.appln.bussinessscripts.fbtest.fbtest() throws com.rameshsoft.automation.customisedexceptions.FrameworksException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetcexecution -->
+        <test-method status="PASS" signature="fbtest()[pri:0, instance:com.rameshsoft.automation.appln.bussinessscripts.fbtest@18a70f16]" name="fbtest" duration-ms="7" started-at="2022-03-04T14:32:44 IST" finished-at="2022-03-04T14:32:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fbtest -->
+        <test-method status="PASS" signature="aftertcexecution(org.testng.ITestResult)[pri:0, instance:com.rameshsoft.automation.appln.bussinessscripts.fbtest@18a70f16]" name="aftertcexecution" is-config="true" duration-ms="266" started-at="2022-03-04T14:32:44 IST" finished-at="2022-03-04T14:32:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fbtest status=SUCCESS method=fbtest.fbtest()[pri:0, instance:com.rameshsoft.automation.appln.bussinessscripts.fbtest@18a70f16] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertcexecution -->
+      </class> <!-- com.rameshsoft.automation.appln.bussinessscripts.fbtest -->
+      <class name="com.rameshsoft.automation.appln.bussinessscripts.gmailtest">
+        <test-method status="PASS" signature="openbrowser(java.lang.String)[pri:0, instance:com.rameshsoft.automation.appln.bussinessscripts.gmailtest@491666ad]" name="openbrowser" is-config="true" duration-ms="7793" started-at="2022-03-04T14:32:23 IST" finished-at="2022-03-04T14:32:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="initTeports()[pri:0, instance:com.rameshsoft.automation.appln.bussinessscripts.gmailtest@491666ad]" name="initTeports" is-config="true" duration-ms="548" started-at="2022-03-04T14:32:31 IST" finished-at="2022-03-04T14:32:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTeports -->
+        <test-method status="PASS" signature="beforetcexecution(java.lang.reflect.Method)[pri:0, instance:com.rameshsoft.automation.appln.bussinessscripts.gmailtest@491666ad]" name="beforetcexecution" is-config="true" duration-ms="10" started-at="2022-03-04T14:32:32 IST" finished-at="2022-03-04T14:32:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.rameshsoft.automation.appln.bussinessscripts.gmailtest.gmaillogintest() throws java.io.IOException,org.apache.poi.EncryptedDocumentException,org.apache.poi.openxml4j.exceptions.InvalidFormatException,com.rameshsoft.automation.customisedexceptions.FrameworksException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetcexecution -->
+        <test-method status="PASS" signature="gmaillogintest()[pri:0, instance:com.rameshsoft.automation.appln.bussinessscripts.gmailtest@491666ad]" name="gmaillogintest" duration-ms="10962" started-at="2022-03-04T14:32:32 IST" finished-at="2022-03-04T14:32:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gmaillogintest -->
+        <test-method status="PASS" signature="aftertcexecution(org.testng.ITestResult)[pri:0, instance:com.rameshsoft.automation.appln.bussinessscripts.gmailtest@491666ad]" name="aftertcexecution" is-config="true" duration-ms="883" started-at="2022-03-04T14:32:43 IST" finished-at="2022-03-04T14:32:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=gmaillogintest status=SUCCESS method=gmailtest.gmaillogintest()[pri:0, instance:com.rameshsoft.automation.appln.bussinessscripts.gmailtest@491666ad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertcexecution -->
+        <test-method status="PASS" signature="generateReports()[pri:0, instance:com.rameshsoft.automation.appln.bussinessscripts.gmailtest@491666ad]" name="generateReports" is-config="true" duration-ms="124" started-at="2022-03-04T14:33:03 IST" finished-at="2022-03-04T14:33:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReports -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.rameshsoft.automation.appln.bussinessscripts.gmailtest@491666ad]" name="closebrowser" is-config="true" duration-ms="1246" started-at="2022-03-04T14:33:03 IST" finished-at="2022-03-04T14:33:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.rameshsoft.automation.appln.bussinessscripts.gmailtest -->
+      <class name="com.rameshsoft.automation.appln.bussinessscripts.fptest">
+        <test-method status="PASS" signature="beforetcexecution(java.lang.reflect.Method)[pri:0, instance:com.rameshsoft.automation.appln.bussinessscripts.fptest@62e136d3]" name="beforetcexecution" is-config="true" duration-ms="1" started-at="2022-03-04T14:32:44 IST" finished-at="2022-03-04T14:32:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.rameshsoft.automation.appln.bussinessscripts.fptest.flpkrttest() throws com.rameshsoft.automation.customisedexceptions.FrameworksException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetcexecution -->
+        <test-method status="PASS" signature="flpkrttest()[pri:0, instance:com.rameshsoft.automation.appln.bussinessscripts.fptest@62e136d3]" name="flpkrttest" duration-ms="8886" started-at="2022-03-04T14:32:44 IST" finished-at="2022-03-04T14:32:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flpkrttest -->
+        <test-method status="PASS" signature="aftertcexecution(org.testng.ITestResult)[pri:0, instance:com.rameshsoft.automation.appln.bussinessscripts.fptest@62e136d3]" name="aftertcexecution" is-config="true" duration-ms="116" started-at="2022-03-04T14:32:53 IST" finished-at="2022-03-04T14:32:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=flpkrttest status=SUCCESS method=fptest.flpkrttest()[pri:0, instance:com.rameshsoft.automation.appln.bussinessscripts.fptest@62e136d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertcexecution -->
+      </class> <!-- com.rameshsoft.automation.appln.bussinessscripts.fptest -->
+      <class name="com.rameshsoft.automation.appln.bussinessscripts.InstTest">
+        <test-method status="PASS" signature="beforetcexecution(java.lang.reflect.Method)[pri:0, instance:com.rameshsoft.automation.appln.bussinessscripts.InstTest@c8e4bb0]" name="beforetcexecution" is-config="true" duration-ms="5" started-at="2022-03-04T14:32:53 IST" finished-at="2022-03-04T14:32:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.rameshsoft.automation.appln.bussinessscripts.InstTest.instTest() throws java.io.IOException,java.lang.InterruptedException,com.rameshsoft.automation.customisedexceptions.FrameworksException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetcexecution -->
+        <test-method status="PASS" signature="instTest()[pri:0, instance:com.rameshsoft.automation.appln.bussinessscripts.InstTest@c8e4bb0]" name="instTest" duration-ms="10088" started-at="2022-03-04T14:32:53 IST" finished-at="2022-03-04T14:33:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- instTest -->
+        <test-method status="PASS" signature="aftertcexecution(org.testng.ITestResult)[pri:0, instance:com.rameshsoft.automation.appln.bussinessscripts.InstTest@c8e4bb0]" name="aftertcexecution" is-config="true" duration-ms="138" started-at="2022-03-04T14:33:03 IST" finished-at="2022-03-04T14:33:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=instTest status=SUCCESS method=InstTest.instTest()[pri:0, instance:com.rameshsoft.automation.appln.bussinessscripts.InstTest@c8e4bb0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertcexecution -->
+      </class> <!-- com.rameshsoft.automation.appln.bussinessscripts.InstTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

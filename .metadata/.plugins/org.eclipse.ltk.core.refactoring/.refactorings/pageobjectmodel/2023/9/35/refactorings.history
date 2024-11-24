@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Testdata.xls&apos; to &apos;Seleniumframework2/src/com.rameshsoft.automation.appln.testdata&apos;&#x0D;&#x0A;- Original project: &apos;pageobjectmodel&apos;&#x0D;&#x0A;- Destination element: &apos;Seleniumframework2/src/com.rameshsoft.automation.appln.testdata&apos;&#x0D;&#x0A;- Original element: &apos;Testdata.xls&apos;" description="Copy file" destination="=Seleniumframework2/src&lt;com.rameshsoft.automation.appln.testdata" element1="src/com/rameshsoft/automation/appln/testdata/Testdata.xls" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1693576725097" units="0" version="1.0"/>
+</session>

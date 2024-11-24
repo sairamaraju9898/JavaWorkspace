@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="4" total="7" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="72876" started-at="2022-02-06T22:51:40 IST" finished-at="2022-02-06T22:52:53 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="72876" started-at="2022-02-06T22:51:40 IST" finished-at="2022-02-06T22:52:53 IST">
+      <class name="com.ram.automation.gmail">
+        <test-method status="PASS" signature="beforetcexecution(java.lang.reflect.Method)[pri:0, instance:com.ram.automation.gmail@dd3b207]" name="beforetcexecution" is-config="true" duration-ms="1" started-at="2022-02-06T22:51:52 IST" finished-at="2022-02-06T22:51:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ram.automation.gmail.gmailtest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetcexecution -->
+        <test-method status="FAIL" signature="gmailtest()[pri:0, instance:com.ram.automation.gmail@dd3b207]" name="gmailtest" duration-ms="57790" started-at="2022-02-06T22:51:52 IST" finished-at="2022-02-06T22:52:50 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#identifierNext2"}
+  (Session info: chrome=97.0.4692.99)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-9KUC2J4U', ip: '192.168.151.150', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}), userDataDir=C:\Users\Lenovo\AppData\Local\Temp\scoped_dir11660_1182814076}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:51312}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=97.0.4692.99, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: bcd6112c8561f90059e584f87d5256bc
+*** Element info: {Using=id, value=identifierNext2}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#identifierNext2"}
+  (Session info: chrome=97.0.4692.99)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-9KUC2J4U', ip: '192.168.151.150', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}), userDataDir=C:\Users\Lenovo\AppData\Local\Temp\scoped_dir11660_1182814076}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:51312}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=97.0.4692.99, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: bcd6112c8561f90059e584f87d5256bc
+*** Element info: {Using=id, value=identifierNext2}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:414)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:457)
+at org.openqa.selenium.By$ById.findElement(By.java:218)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
+at com.ram.automation.gmail.gmailtest(gmail.java:16)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gmailtest -->
+        <test-method status="PASS" signature="aftertcexecution(org.testng.ITestResult)[pri:0, instance:com.ram.automation.gmail@dd3b207]" name="aftertcexecution" is-config="true" duration-ms="394" started-at="2022-02-06T22:52:50 IST" finished-at="2022-02-06T22:52:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=gmailtest status=FAILURE method=gmail.gmailtest()[pri:0, instance:com.ram.automation.gmail@dd3b207] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertcexecution -->
+      </class> <!-- com.ram.automation.gmail -->
+      <class name="com.ram.automation.ramesh">
+        <test-method status="PASS" signature="openbrowser(java.lang.String)[pri:0, instance:com.ram.automation.ramesh@797badd3]" name="openbrowser" is-config="true" duration-ms="6832" started-at="2022-02-06T22:51:33 IST" finished-at="2022-02-06T22:51:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="beforetcexecution(java.lang.reflect.Method)[pri:0, instance:com.ram.automation.ramesh@797badd3]" name="beforetcexecution" is-config="true" duration-ms="3" started-at="2022-02-06T22:51:40 IST" finished-at="2022-02-06T22:51:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ram.automation.ramesh.instTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetcexecution -->
+        <test-method status="PASS" signature="instTest()[pri:0, instance:com.ram.automation.ramesh@797badd3]" name="instTest" duration-ms="11779" started-at="2022-02-06T22:51:40 IST" finished-at="2022-02-06T22:51:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- instTest -->
+        <test-method status="PASS" signature="aftertcexecution(org.testng.ITestResult)[pri:0, instance:com.ram.automation.ramesh@797badd3]" name="aftertcexecution" is-config="true" duration-ms="2" started-at="2022-02-06T22:51:52 IST" finished-at="2022-02-06T22:51:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=instTest status=SUCCESS method=ramesh.instTest()[pri:0, instance:com.ram.automation.ramesh@797badd3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertcexecution -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.ram.automation.ramesh@797badd3]" name="closebrowser" is-config="true" duration-ms="404" started-at="2022-02-06T22:52:53 IST" finished-at="2022-02-06T22:52:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.ram.automation.ramesh -->
+      <class name="com.ram.automation.fb">
+        <test-method status="PASS" signature="beforetcexecution(java.lang.reflect.Method)[pri:0, instance:com.ram.automation.fb@551bdc27]" name="beforetcexecution" is-config="true" duration-ms="0" started-at="2022-02-06T22:52:50 IST" finished-at="2022-02-06T22:52:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ram.automation.fb.fbtest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetcexecution -->
+        <test-method status="PASS" signature="fbtest()[pri:0, instance:com.ram.automation.fb@551bdc27]" name="fbtest" duration-ms="2775" started-at="2022-02-06T22:52:50 IST" finished-at="2022-02-06T22:52:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fbtest -->
+        <test-method status="PASS" signature="aftertcexecution(org.testng.ITestResult)[pri:0, instance:com.ram.automation.fb@551bdc27]" name="aftertcexecution" is-config="true" duration-ms="0" started-at="2022-02-06T22:52:53 IST" finished-at="2022-02-06T22:52:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fbtest status=SUCCESS method=fb.fbtest()[pri:0, instance:com.ram.automation.fb@551bdc27] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertcexecution -->
+      </class> <!-- com.ram.automation.fb -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

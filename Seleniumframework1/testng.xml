@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.rameshsoft.automation.listeners.Testcaseactivity"></listener>
+</listeners>
+<parameter name="browser" value="chrome"></parameter>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.rameshsoft.businescripts.Gmailtest"/>
+      <class name="com.rameshsoft.businescripts.Fptest"/>
+      <class name="com.rameshsoft.businescripts.Insttest"/>
+      <class name="com.rameshsoft.businescripts.Fbtest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

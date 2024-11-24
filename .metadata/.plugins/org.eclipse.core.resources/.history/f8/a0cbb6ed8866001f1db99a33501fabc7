@@ -1,0 +1,12 @@
+package Practice;
+
+public class Sample2 extends Sample1 {
+	
+	public static void main(String[] args) {
+		Sample2 sample2=new Sample2();
+		System.out.println(sample2.a);
+		sample2.sai();
+		
+	}
+
+}

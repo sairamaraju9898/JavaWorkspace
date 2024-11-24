@@ -1,0 +1,14 @@
+package com.testng.parameters;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+import com.beust.jcommander.Parameter;
+
+public class parameters {
+	@Parameters({"s"})
+@Test
+public void login(@Optional("job is must") String s) {
+	System.out.println("login()" + s);
+}
+}

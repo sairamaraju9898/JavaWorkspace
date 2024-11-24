@@ -1,0 +1,23 @@
+package Practice;
+
+public class Sample1 {
+int a=20;
+static int k=90;
+
+public void sai() {
+	a=50;
+	//k=87;
+	System.out.println("sample1  a is "+a);
+	
+}
+
+public static void main(String[] args) {
+    k=77;
+	Sample1 sample1=new Sample1();
+	System.out.println("jhdbcwjeb");
+	System.out.println(sample1.a);
+	sample1.sai();
+	System.out.println(sample1.a); 
+	System.out.println(k);
+}
+}

@@ -1,0 +1,10 @@
+package com.testng.parameters;
+
+import org.testng.annotations.Test;
+
+public class parameters {
+@Test
+public void login(String s) {
+	System.out.println("login()");
+}
+}

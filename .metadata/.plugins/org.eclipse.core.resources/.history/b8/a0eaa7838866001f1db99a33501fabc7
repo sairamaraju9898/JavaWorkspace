@@ -1,0 +1,9 @@
+package Practice;
+
+public class Sample1 {
+int a=20;
+
+public void sai() {
+	System.out.println("sample1  a is "+a);
+}
+}

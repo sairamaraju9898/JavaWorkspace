@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="212" started-at="2022-02-03T08:52:46 IST" finished-at="2022-02-03T08:52:46 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="212" started-at="2022-02-03T08:52:46 IST" finished-at="2022-02-03T08:52:46 IST">
+      <class name="parameters.dataprovider">
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:parameters.dataprovider@51cdd8a]" name="login" duration-ms="24" started-at="2022-02-03T08:52:46 IST" data-provider="logindata" finished-at="2022-02-03T08:52:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[java]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[selenium]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[job]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:parameters.dataprovider@51cdd8a]" name="login" duration-ms="5" started-at="2022-02-03T08:52:46 IST" data-provider="logindata" finished-at="2022-02-03T08:52:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hike]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hikee]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[hi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:parameters.dataprovider@51cdd8a]" name="login" duration-ms="5" started-at="2022-02-03T08:52:46 IST" data-provider="logindata" finished-at="2022-02-03T08:52:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[h]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[e]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ik]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- parameters.dataprovider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
