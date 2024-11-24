@@ -51,13 +51,13 @@ public class ExcelReader {
 			if(row!=null) {
 				cell=row.getCell(cellnum);
 				if(cell!=null) {
-					if(cell.getCellType()==cell.CELL_TYPE_STRING) { //here i'm not sure about this line check notes
+					if(cell.getCellType()==cell.getCellType().STRING) { //here i'm not sure about this line check notes
 					value=cell.getStringCellValue();
 					}
-					else if (cell.getCellType()==Cell.CELL_TYPE_BOOLEAN) {
+					else if (cell.getCellType()==cell.getCellType().BOOLEAN) {
 						value=cell.getBooleanCellValue()+" ";
 					}
-					else if (cell.getCellType()==cell.CELL_TYPE_NUMERIC) {
+					else if (cell.getCellType()==cell.getCellType().NUMERIC) {
 						value=cell.getNumericCellValue()+" ";}
 				
 			}
@@ -86,15 +86,15 @@ public class ExcelReader {
 		sheet=getsheetobj(how, value);
 		for(int i=0;i<row.getLastCellNum();i++) {
 			cell=row.getCell(i);
-			if(cell.getCellType()==cell.CELL_TYPE_STRING) {
+			if(cell.getCellType()==cell.getCellType().STRING) {
 				value=cell.getStringCellValue();
 				rowdata.add(value);
 			}
-			else if (cell.getCellType()==cell.CELL_TYPE_BOOLEAN) {
+			else if (cell.getCellType()==cell.getCellType().BOOLEAN) {
 				value=cell.getBooleanCellValue()+" ";
 				rowdata.add(value);
 			}
-			else if (cell.getCellType()==cell.getNumericCellValue()) {
+			else if (cell.getCellType()==cell.getCellType().NUMERIC) {
 				value=cell.getNumericCellValue()+" ";
 				rowdata.add(value);
 				}
@@ -116,7 +116,7 @@ public class ExcelReader {
 					value=cell.getBooleanCellValue()+" ";
 					sheetdata.add(value);
 				}
-				else if (cell.getCellType()==Cell.CELL_TYPE_NUMERIC) {
+				else if (cell.getCellType()==cell.getCellType().NUMERIC) {
 					value=cell.getNumericCellValue()+" ";
 					sheetdata.add(value);
 					}
